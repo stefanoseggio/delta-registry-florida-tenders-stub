@@ -60,7 +60,7 @@ endpoint:
 That's the listing endpoint's raw shape: dates as the portal's own raw
 timestamps (no UTC/Florida-time normalization, no `daysUntilClose`), agency
 identity duplicated both flat (`agency`) and nested under `organization`,
-and no `description`, `commodityCodes`, `documents` or `responseContact` -
+and no `description`, `commodityCodes`, `docs` or `responseContact` -
 those only come back from a separate per-advertisement detail request,
 which this stub does not make.
 
